@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+ 
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: visiblePainted;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4d174a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.button-add button {
+  background-color: #3a1010;
+  color: antiquewhite;
+  border: 1px solid #330a0a;
+
+  left: 50px;
+}
+.button-add button:hover{
+  background-color: #53262f;
+  color: antiquewhite;
+  border: 1px solid #420c18;
+}
+
+
+.text-center{
+  color: antiquewhite;
+}
+
+.title{
+  color: antiquewhite;
+}
+
+.content{
+  color: antiquewhite;
+}
+
+.container{
+  background-image: url(./images/castle.jpg);
+  position: sticky;
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.row-table{
+  text-align: center;
+  width: 90%;
+  height: 90%;
+}
+.footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(39, 27, 37) ;
+  text-align: center;
+  color: aliceblue;
+}
